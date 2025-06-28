@@ -1,0 +1,106 @@
+[
+  {
+    "ContainingType": "Proyecto_Api_movil.Controllers.Autor_Controller",
+    "Method": "Filtrar_por_ID",
+    "RelativePath": "api/Autor_/Get_FILTRAR_AUTOR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_autor",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Capa_Entidades.CE_Autor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_Api_movil.Controllers.Autor_Controller",
+    "Method": "Filtrar_Nombre",
+    "RelativePath": "api/Autor_/Get_FILTRAR_AUTOR_NOMBRE",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Capa_Entidades.CE_Autor, Capa_Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_Api_movil.Controllers.Autor_Controller",
+    "Method": "LISTAR_AUTORES",
+    "RelativePath": "api/Autor_/Get_LISTAR_AUTORES",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Capa_Entidades.CE_Autor, Capa_Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_Api_movil.Controllers.Autor_Controller",
+    "Method": "INSERTAR_AUTOR",
+    "RelativePath": "api/Autor_/Post_INSERTAR_AUTOR",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "am_autor",
+        "Type": "Proyecto_Api_movil.Controllers.API_model.AM_Autor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_Api_movil.Controllers.Autor_Controller",
+    "Method": "ACTUALIZAR_AUTOR",
+    "RelativePath": "api/Autor_/Put_ACTUALIZAR_AUTOR",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "am_autor",
+        "Type": "Proyecto_Api_movil.Controllers.API_model.AM_Autor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

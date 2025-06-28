@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Habilita generación de archivo XML para documentación -->
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+		<!-- Habilita generación automática de OpenAPI -->
+		<EnableOpenAPI>true</EnableOpenAPI>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.6" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Capa_Entidades\Capa_Entidades.csproj" />
+		<ProjectReference Include="..\Capa_Negocio\Capa_Negocio.csproj" />
+	</ItemGroup>
+
+</Project>
+

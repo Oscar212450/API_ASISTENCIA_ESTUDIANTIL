@@ -1,0 +1,12 @@
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\bin\Debug\net8.0\Capa_Entidades.deps.json
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\bin\Debug\net8.0\Capa_Entidades.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\bin\Debug\net8.0\Capa_Entidades.pdb
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\obj\Debug\net8.0\Capa_Entidades.csproj.AssemblyReference.cache
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\obj\Debug\net8.0\Capa_Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\obj\Debug\net8.0\Capa_Entidades.AssemblyInfoInputs.cache
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\obj\Debug\net8.0\Capa_Entidades.AssemblyInfo.cs
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\obj\Debug\net8.0\Capa_Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\obj\Debug\net8.0\Capa_Entidades.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\obj\Debug\net8.0\refint\Capa_Entidades.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\obj\Debug\net8.0\Capa_Entidades.pdb
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Entidades\obj\Debug\net8.0\ref\Capa_Entidades.dll

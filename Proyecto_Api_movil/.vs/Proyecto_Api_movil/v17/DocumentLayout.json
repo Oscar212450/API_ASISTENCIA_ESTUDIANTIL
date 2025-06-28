@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Proyecto_Api_movil\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEB4086-4490-4D83-88D7-C72ABEBC976A}|Proyecto_Api_movil.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_movil\\proyecto_api_movil\\controllers\\estado_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DEB4086-4490-4D83-88D7-C72ABEBC976A}|Proyecto_Api_movil.csproj|solutionrelative:controllers\\estado_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743FE95-ED3B-4884-92B0-6A43F48D1D51}|..\\Capa_Negocio\\Capa_Negocio.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_movil\\capa_negocio\\cn_autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEB4086-4490-4D83-88D7-C72ABEBC976A}|Proyecto_Api_movil.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_movil\\proyecto_api_movil\\controllers\\api_model\\am_estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DEB4086-4490-4D83-88D7-C72ABEBC976A}|Proyecto_Api_movil.csproj|solutionrelative:controllers\\api_model\\am_estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0482B793-5F6D-46A9-B7D5-715DF596FBDB}|..\\Capa_Entidades\\Capa_Entidades.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_movil\\capa_entidades\\ce_autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{324F96F2-C9DD-411F-88B9-A0F30CBA95E4}|..\\Capa_Dato\\Capa_Dato.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_movil\\capa_dato\\cd_autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{324F96F2-C9DD-411F-88B9-A0F30CBA95E4}|..\\Capa_Dato\\Capa_Dato.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_movil\\capa_dato\\cd_conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEB4086-4490-4D83-88D7-C72ABEBC976A}|Proyecto_Api_movil.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_movil\\proyecto_api_movil\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3DEB4086-4490-4D83-88D7-C72ABEBC976A}|Proyecto_Api_movil.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CD_CONEXION.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Capa_Dato\\CD_CONEXION.cs",
+              "RelativeDocumentMoniker": "..\\Capa_Dato\\CD_CONEXION.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Capa_Dato\\CD_CONEXION.cs",
+              "RelativeToolTip": "..\\Capa_Dato\\CD_CONEXION.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T14:10:13.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Proyecto_Api_movil\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Proyecto_Api_movil\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T02:44:47.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AM_Estado.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Proyecto_Api_movil\\Controllers\\API_model\\AM_Estado.cs",
+              "RelativeDocumentMoniker": "Controllers\\API_model\\AM_Estado.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Proyecto_Api_movil\\Controllers\\API_model\\AM_Estado.cs",
+              "RelativeToolTip": "Controllers\\API_model\\AM_Estado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:19:48.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CE_Autor.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Capa_Entidades\\CE_Autor.cs",
+              "RelativeDocumentMoniker": "..\\Capa_Entidades\\CE_Autor.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Capa_Entidades\\CE_Autor.cs",
+              "RelativeToolTip": "..\\Capa_Entidades\\CE_Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:03:06.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Estado_Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Proyecto_Api_movil\\Controllers\\Estado_Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Estado_Controller.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Proyecto_Api_movil\\Controllers\\Estado_Controller.cs",
+              "RelativeToolTip": "Controllers\\Estado_Controller.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T04:03:26.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CN_Autor.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Capa_Negocio\\CN_Autor.cs",
+              "RelativeDocumentMoniker": "..\\Capa_Negocio\\CN_Autor.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Capa_Negocio\\CN_Autor.cs",
+              "RelativeToolTip": "..\\Capa_Negocio\\CN_Autor.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T03:23:07.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CD_Autor.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Capa_Dato\\CD_Autor.cs",
+              "RelativeDocumentMoniker": "..\\Capa_Dato\\CD_Autor.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\Api_Movil\\Capa_Dato\\CD_Autor.cs",
+              "RelativeToolTip": "..\\Capa_Dato\\CD_Autor.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAOgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T05:22:25.968Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

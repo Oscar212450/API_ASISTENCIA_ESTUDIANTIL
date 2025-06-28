@@ -1,0 +1,15 @@
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\obj\Debug\net8.0\Capa_Dato.csproj.AssemblyReference.cache
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\obj\Debug\net8.0\Capa_Dato.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\obj\Debug\net8.0\Capa_Dato.AssemblyInfoInputs.cache
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\obj\Debug\net8.0\Capa_Dato.AssemblyInfo.cs
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\obj\Debug\net8.0\Capa_Dato.csproj.CoreCompileInputs.cache
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\bin\Debug\net8.0\Capa_Dato.deps.json
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\bin\Debug\net8.0\Capa_Dato.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\bin\Debug\net8.0\Capa_Dato.pdb
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\bin\Debug\net8.0\Capa_Entidades.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\bin\Debug\net8.0\Capa_Entidades.pdb
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\obj\Debug\net8.0\Capa_Dato.csproj.Up2Date
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\obj\Debug\net8.0\Capa_Dato.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\obj\Debug\net8.0\refint\Capa_Dato.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\obj\Debug\net8.0\Capa_Dato.pdb
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\Api_Movil\Capa_Dato\obj\Debug\net8.0\ref\Capa_Dato.dll
