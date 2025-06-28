@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\api_asistencia_estudiantil\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|solutionrelative:api_asistencia_estudiantil\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EA00D6-12CC-4AD7-9F35-D56BA4C452C9}|CAPA_DATOS\\CAPA_DATOS.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\capa_datos\\cd_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EA00D6-12CC-4AD7-9F35-D56BA4C452C9}|CAPA_DATOS\\CAPA_DATOS.csproj|solutionrelative:capa_datos\\cd_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\api_asistencia_estudiantil\\controllers\\tbl_usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|solutionrelative:api_asistencia_estudiantil\\controllers\\tbl_usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\capa_negocio\\cn_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|solutionrelative:capa_negocio\\cn_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\capa_negocio\\cn_docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|solutionrelative:capa_negocio\\cn_docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\api_asistencia_estudiantil\\controllers\\tbl_docentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|solutionrelative:api_asistencia_estudiantil\\controllers\\tbl_docentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EA00D6-12CC-4AD7-9F35-D56BA4C452C9}|CAPA_DATOS\\CAPA_DATOS.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\capa_datos\\cd_docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EA00D6-12CC-4AD7-9F35-D56BA4C452C9}|CAPA_DATOS\\CAPA_DATOS.csproj|solutionrelative:capa_datos\\cd_docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\api_asistencia_estudiantil\\controllers\\tbl_datos_personalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|solutionrelative:api_asistencia_estudiantil\\controllers\\tbl_datos_personalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\capa_negocio\\cn_datos_personales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|solutionrelative:capa_negocio\\cn_datos_personales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EA00D6-12CC-4AD7-9F35-D56BA4C452C9}|CAPA_DATOS\\CAPA_DATOS.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\capa_datos\\cd_datos_personales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EA00D6-12CC-4AD7-9F35-D56BA4C452C9}|CAPA_DATOS\\CAPA_DATOS.csproj|solutionrelative:capa_datos\\cd_datos_personales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\capa_negocio\\cn_contactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|solutionrelative:capa_negocio\\cn_contactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\api_asistencia_estudiantil\\controllers\\tbl_contactoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|solutionrelative:api_asistencia_estudiantil\\controllers\\tbl_contactoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\capa_negocio\\cn_asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|solutionrelative:capa_negocio\\cn_asistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\api_asistencia_estudiantil\\controllers\\tbl_asistenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|solutionrelative:api_asistencia_estudiantil\\controllers\\tbl_asistenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EA00D6-12CC-4AD7-9F35-D56BA4C452C9}|CAPA_DATOS\\CAPA_DATOS.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\capa_datos\\cd_horarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EA00D6-12CC-4AD7-9F35-D56BA4C452C9}|CAPA_DATOS\\CAPA_DATOS.csproj|solutionrelative:capa_datos\\cd_horarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\capa_negocio\\cn_tipo_catalogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|solutionrelative:capa_negocio\\cn_tipo_catalogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\api_asistencia_estudiantil\\controllers\\cls_tipo_catalogoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|solutionrelative:api_asistencia_estudiantil\\controllers\\cls_tipo_catalogoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\api_asistencia_estudiantil\\controllers\\cls_estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A82B8ED-6DD7-4899-85B0-22D67366384E}|API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL.csproj|solutionrelative:api_asistencia_estudiantil\\controllers\\cls_estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|c:\\users\\holmer martinez\\desktop\\programacion de aplicacion movil\\api_asistencia_estudiantil\\capa_negocio\\cn_estados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E99F23-6974-40A5-A715-36E89CFAF12F}|CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|solutionrelative:capa_negocio\\cn_estados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\appsettings.json",
+              "RelativeDocumentMoniker": "API_ASISTENCIA_ESTUDIANTIL\\appsettings.json",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\appsettings.json*",
+              "RelativeToolTip": "API_ASISTENCIA_ESTUDIANTIL\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T00:25:02.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CD_USUARIOS.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_DATOS\\CD_USUARIOS.cs",
+              "RelativeDocumentMoniker": "CAPA_DATOS\\CD_USUARIOS.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_DATOS\\CD_USUARIOS.cs",
+              "RelativeToolTip": "CAPA_DATOS\\CD_USUARIOS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T05:07:36.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CN_USUARIOS.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_USUARIOS.cs",
+              "RelativeDocumentMoniker": "CAPA_NEGOCIO\\CN_USUARIOS.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_USUARIOS.cs",
+              "RelativeToolTip": "CAPA_NEGOCIO\\CN_USUARIOS.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:59:29.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CN_DOCENTES.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_DOCENTES.cs",
+              "RelativeDocumentMoniker": "CAPA_NEGOCIO\\CN_DOCENTES.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_DOCENTES.cs",
+              "RelativeToolTip": "CAPA_NEGOCIO\\CN_DOCENTES.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:53:20.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tbl_DocentesController.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_DocentesController.cs",
+              "RelativeDocumentMoniker": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_DocentesController.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_DocentesController.cs",
+              "RelativeToolTip": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_DocentesController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:53:32.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tbl_Datos_PersonalesController.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_Datos_PersonalesController.cs",
+              "RelativeDocumentMoniker": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_Datos_PersonalesController.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_Datos_PersonalesController.cs",
+              "RelativeToolTip": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_Datos_PersonalesController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwC4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:48:14.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CN_DATOS_PERSONALES.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_DATOS_PERSONALES.cs",
+              "RelativeDocumentMoniker": "CAPA_NEGOCIO\\CN_DATOS_PERSONALES.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_DATOS_PERSONALES.cs",
+              "RelativeToolTip": "CAPA_NEGOCIO\\CN_DATOS_PERSONALES.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:47:58.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CD_DATOS_PERSONALES.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_DATOS\\CD_DATOS_PERSONALES.cs",
+              "RelativeDocumentMoniker": "CAPA_DATOS\\CD_DATOS_PERSONALES.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_DATOS\\CD_DATOS_PERSONALES.cs",
+              "RelativeToolTip": "CAPA_DATOS\\CD_DATOS_PERSONALES.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAUwPEAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:46:10.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Tbl_ContactosController.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_ContactosController.cs",
+              "RelativeDocumentMoniker": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_ContactosController.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_ContactosController.cs",
+              "RelativeToolTip": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_ContactosController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wDAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:42:45.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CN_CONTACTOS.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_CONTACTOS.cs",
+              "RelativeDocumentMoniker": "CAPA_NEGOCIO\\CN_CONTACTOS.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_CONTACTOS.cs",
+              "RelativeToolTip": "CAPA_NEGOCIO\\CN_CONTACTOS.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAnwCYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:42:22.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Tbl_AsistenciasController.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_AsistenciasController.cs",
+              "RelativeDocumentMoniker": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_AsistenciasController.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_AsistenciasController.cs",
+              "RelativeToolTip": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_AsistenciasController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:38:10.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CN_ASISTENCIAS.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_ASISTENCIAS.cs",
+              "RelativeDocumentMoniker": "CAPA_NEGOCIO\\CN_ASISTENCIAS.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_ASISTENCIAS.cs",
+              "RelativeToolTip": "CAPA_NEGOCIO\\CN_ASISTENCIAS.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:37:39.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cls_Tipo_CatalogosController.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_Tipo_CatalogosController.cs",
+              "RelativeDocumentMoniker": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_Tipo_CatalogosController.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_Tipo_CatalogosController.cs",
+              "RelativeToolTip": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_Tipo_CatalogosController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:25:28.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CN_TIPO_CATALOGOS.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_TIPO_CATALOGOS.cs",
+              "RelativeDocumentMoniker": "CAPA_NEGOCIO\\CN_TIPO_CATALOGOS.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_TIPO_CATALOGOS.cs",
+              "RelativeToolTip": "CAPA_NEGOCIO\\CN_TIPO_CATALOGOS.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:25:07.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CD_HORARIOS.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_DATOS\\CD_HORARIOS.cs",
+              "RelativeDocumentMoniker": "CAPA_DATOS\\CD_HORARIOS.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_DATOS\\CD_HORARIOS.cs",
+              "RelativeToolTip": "CAPA_DATOS\\CD_HORARIOS.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAqwEMAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:17:26.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CN_ESTADOS.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_ESTADOS.cs",
+              "RelativeDocumentMoniker": "CAPA_NEGOCIO\\CN_ESTADOS.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_NEGOCIO\\CN_ESTADOS.cs",
+              "RelativeToolTip": "CAPA_NEGOCIO\\CN_ESTADOS.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAewB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T00:10:05.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CD_DOCENTES.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_DATOS\\CD_DOCENTES.cs",
+              "RelativeDocumentMoniker": "CAPA_DATOS\\CD_DOCENTES.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\CAPA_DATOS\\CD_DOCENTES.cs",
+              "RelativeToolTip": "CAPA_DATOS\\CD_DOCENTES.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAvwI8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T00:02:41.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Cls_EstadosController.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_EstadosController.cs",
+              "RelativeDocumentMoniker": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_EstadosController.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_EstadosController.cs",
+              "RelativeToolTip": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Cls_EstadosController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAArwG4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T23:51:04.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tbl_UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_UsuariosController.cs",
+              "RelativeDocumentMoniker": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Holmer Martinez\\Desktop\\Programacion De Aplicacion Movil\\API_ASISTENCIA_ESTUDIANTIL\\API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_UsuariosController.cs",
+              "RelativeToolTip": "API_ASISTENCIA_ESTUDIANTIL\\Controllers\\Tbl_UsuariosController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAmwDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T23:47:03.151Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4748 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API_ASISTENCIA_ESTUDIANTIL",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Cls_Asignaturas/OBTENER_ASIGNATURAS": {
+      "get": {
+        "tags": [
+          "Cls_Asignaturas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Asignaturas/BUSCAR_ASIGNATURAS_POR_ID": {
+      "get": {
+        "tags": [
+          "Cls_Asignaturas"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Asignatura",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Asignaturas/BUSCAR_ASIGNATURAS": {
+      "get": {
+        "tags": [
+          "Cls_Asignaturas"
+        ],
+        "parameters": [
+          {
+            "name": "NombreAsignatura",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Asignaturas/INSERTAR_ASIGNATURAS": {
+      "post": {
+        "tags": [
+          "Cls_Asignaturas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASIGNATURAS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASIGNATURAS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASIGNATURAS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Asignaturas/ACTUALIZAR_ASIGNATURAS": {
+      "put": {
+        "tags": [
+          "Cls_Asignaturas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASIGNATURAS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASIGNATURAS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASIGNATURAS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASIGNATURAS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Catalogos/OBTENER_CATALOGOS": {
+      "get": {
+        "tags": [
+          "Cls_Catalogos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Catalogos/BUSCAR_CATALOGOS_POR_ID": {
+      "get": {
+        "tags": [
+          "Cls_Catalogos"
+        ],
+        "parameters": [
+          {
+            "name": "ID_Catalogo",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Catalogos/BUSCAR_CATALOGOS": {
+      "get": {
+        "tags": [
+          "Cls_Catalogos"
+        ],
+        "parameters": [
+          {
+            "name": "Catalogo",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Catalogos/INSERTAR_CATALOGO": {
+      "post": {
+        "tags": [
+          "Cls_Catalogos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CATALOGOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CATALOGOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CATALOGOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Catalogos/ACTUALIZAR_CATALOGO": {
+      "put": {
+        "tags": [
+          "Cls_Catalogos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CATALOGOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CATALOGOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CATALOGOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Docente_Grupo/OBTENER_DOCENTE_GRUPO": {
+      "get": {
+        "tags": [
+          "Cls_Docente_Grupo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTE_GRUPO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTE_GRUPO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTE_GRUPO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Docente_Grupo/BUSCAR_DOCENTE_GRUPO": {
+      "get": {
+        "tags": [
+          "Cls_Docente_Grupo"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Docente",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTE_GRUPO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTE_GRUPO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTE_GRUPO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Docente_Grupo/BUSCAR_DOCENTE_GRUPO_POR_ID": {
+      "get": {
+        "tags": [
+          "Cls_Docente_Grupo"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Docente_Grupo",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTE_GRUPO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTE_GRUPO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTE_GRUPO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Docente_Grupo/INSERTAR_DOCENTE_GRUPO": {
+      "post": {
+        "tags": [
+          "Cls_Docente_Grupo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTE_GRUPO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTE_GRUPO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTE_GRUPO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Docente_Grupo/ACTUALIZAR_DOCENTE_GRUPO": {
+      "put": {
+        "tags": [
+          "Cls_Docente_Grupo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTE_GRUPO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTE_GRUPO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTE_GRUPO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Estados/OBTENER_ESTADOS": {
+      "get": {
+        "tags": [
+          "Cls_Estados"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Estados/BUSCAR_ESTADOS_POR_ID": {
+      "get": {
+        "tags": [
+          "Cls_Estados"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Estados",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Estados/BUSCAR_ESTADOS": {
+      "get": {
+        "tags": [
+          "Cls_Estados"
+        ],
+        "parameters": [
+          {
+            "name": "Estados",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Estados/INSERTAR_Estados": {
+      "post": {
+        "tags": [
+          "Cls_Estados"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTADOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTADOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTADOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTADOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Estados/ACTUALIZAR_ESTADOS": {
+      "put": {
+        "tags": [
+          "Cls_Estados"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTADOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTADOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTADOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Estudiante_Grupo/OBTENER_ESTUDIANTE_GRUPO": {
+      "get": {
+        "tags": [
+          "Cls_Estudiante_Grupo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTE_GRUPO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTE_GRUPO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTE_GRUPO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Estudiante_Grupo/OBTENER_ESTUDIANTE_GRUPO_POR_ID": {
+      "get": {
+        "tags": [
+          "Cls_Estudiante_Grupo"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Estudiante_Grupo",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTE_GRUPO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTE_GRUPO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTE_GRUPO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Estudiante_Grupo/BUSCAR_ESTUDIANTE_GRUPO": {
+      "get": {
+        "tags": [
+          "Cls_Estudiante_Grupo"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Estudiante",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTE_GRUPO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTE_GRUPO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTE_GRUPO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Estudiante_Grupo/INSERTAR_ESTUDIANTE_GRUPO": {
+      "post": {
+        "tags": [
+          "Cls_Estudiante_Grupo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTE_GRUPO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTE_GRUPO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTE_GRUPO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Estudiante_Grupo/ACTUALIZAR_ESTUDIANTE_GRUPO": {
+      "put": {
+        "tags": [
+          "Cls_Estudiante_Grupo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTE_GRUPO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTE_GRUPO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTE_GRUPO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupo_Asignaturas/OBTENER_GRUPO_ASIGNATURA": {
+      "get": {
+        "tags": [
+          "Cls_Grupo_Asignaturas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_ASIGNATURA"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_ASIGNATURA"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_ASIGNATURA"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupo_Asignaturas/BUSCAR_GRUPO_ASIGNATURA": {
+      "get": {
+        "tags": [
+          "Cls_Grupo_Asignaturas"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Grupo",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_ASIGNATURA"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_ASIGNATURA"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_ASIGNATURA"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupo_Asignaturas/BUSCAR_GRUPO_ASIGNATURA_POR_ID": {
+      "get": {
+        "tags": [
+          "Cls_Grupo_Asignaturas"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Grupo_Asignatura",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_ASIGNATURA"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_ASIGNATURA"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_ASIGNATURA"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupo_Asignaturas/INSERTAR_GRUPO_ASIGNATURA": {
+      "post": {
+        "tags": [
+          "Cls_Grupo_Asignaturas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_ASIGNATURA"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_ASIGNATURA"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_ASIGNATURA"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupo_Asignaturas/ACTUALIZAR_GRUPO_ASIGNATURA": {
+      "put": {
+        "tags": [
+          "Cls_Grupo_Asignaturas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_ASIGNATURA"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_ASIGNATURA"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_ASIGNATURA"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupo_Turno/OBTENER_GRUPO_TURNO": {
+      "get": {
+        "tags": [
+          "Cls_Grupo_Turno"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_TURNO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_TURNO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_TURNO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupo_Turno/BUSCAR_GRUPO_TURNO_POR_ID": {
+      "get": {
+        "tags": [
+          "Cls_Grupo_Turno"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Horario",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_TURNO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_TURNO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_TURNO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupo_Turno/BUSCAR_GRUPO_TURNO": {
+      "get": {
+        "tags": [
+          "Cls_Grupo_Turno"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Grupo_Turno",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_TURNO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_TURNO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPO_TURNO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupo_Turno/INSERTAR_GRUPO_TURNO": {
+      "post": {
+        "tags": [
+          "Cls_Grupo_Turno"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_TURNO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_TURNO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_TURNO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupo_Turno/ACTUALIZAR_GRUPO_TURNO": {
+      "put": {
+        "tags": [
+          "Cls_Grupo_Turno"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_TURNO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_TURNO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPO_TURNO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupos/OBTENER_GRUPOS": {
+      "get": {
+        "tags": [
+          "Cls_Grupos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupos/BUSCAR_GRUPOS_POR_ID": {
+      "get": {
+        "tags": [
+          "Cls_Grupos"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Grupo",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupos/BUSCAR_GRUPOS": {
+      "get": {
+        "tags": [
+          "Cls_Grupos"
+        ],
+        "parameters": [
+          {
+            "name": "CodigoGrupo",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_GRUPOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupos/INSERTAR_GRUPOS": {
+      "post": {
+        "tags": [
+          "Cls_Grupos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Grupos/ACTUALIZAR_GRUPOS": {
+      "put": {
+        "tags": [
+          "Cls_Grupos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_GRUPOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Horarios/OBTENER_HORARIOS": {
+      "get": {
+        "tags": [
+          "Cls_Horarios"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_HORARIOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_HORARIOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_HORARIOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Horarios/BUSCAR_HORARIOS_POR_ID": {
+      "get": {
+        "tags": [
+          "Cls_Horarios"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Horario",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_HORARIOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_HORARIOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_HORARIOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Horarios/BUSCAR_HORARIOS": {
+      "get": {
+        "tags": [
+          "Cls_Horarios"
+        ],
+        "parameters": [
+          {
+            "name": "Horario",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_HORARIOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_HORARIOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_HORARIOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Horarios/INSERTAR_HORARIO": {
+      "post": {
+        "tags": [
+          "Cls_Horarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_HORARIOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_HORARIOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_HORARIOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Horarios/ACTUALIZAR_HORARIO": {
+      "put": {
+        "tags": [
+          "Cls_Horarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_HORARIOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_HORARIOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_HORARIOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Tipo_Catalogos/OBTENER_TIPO_CATALOGOS": {
+      "get": {
+        "tags": [
+          "Cls_Tipo_Catalogos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_TIPO_CATALOGOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_TIPO_CATALOGOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_TIPO_CATALOGOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Tipo_Catalogos/BUSCAR_TIPO_CATALOGO_POR_ID": {
+      "get": {
+        "tags": [
+          "Cls_Tipo_Catalogos"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Tipo_Catalogo",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_TIPO_CATALOGOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_TIPO_CATALOGOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_TIPO_CATALOGOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Tipo_Catalogos/BUSCAR_TIPO_CATALOGO": {
+      "get": {
+        "tags": [
+          "Cls_Tipo_Catalogos"
+        ],
+        "parameters": [
+          {
+            "name": "Tipos",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_TIPO_CATALOGOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_TIPO_CATALOGOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_TIPO_CATALOGOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cls_Tipo_Catalogos/INSERTAR_TIPO_CATALOGO": {
+      "post": {
+        "tags": [
+          "Cls_Tipo_Catalogos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_TIPO_CATALOGOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_TIPO_CATALOGOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_TIPO_CATALOGOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cls_Tipo_Catalogos/ACTUALIZAR_TIPO_CATALOGO": {
+      "put": {
+        "tags": [
+          "Cls_Tipo_Catalogos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_TIPO_CATALOGOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_TIPO_CATALOGOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_TIPO_CATALOGOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Asistencias/OBTENER_ASISTENCIAS": {
+      "get": {
+        "tags": [
+          "Tbl_Asistencias"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASISTENCIAS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASISTENCIAS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASISTENCIAS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Asistencias/BUSCAR_ASISTENCIAS_POR_ID": {
+      "get": {
+        "tags": [
+          "Tbl_Asistencias"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Asistencia",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASISTENCIAS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASISTENCIAS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASISTENCIAS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Asistencias/BUSCAR_ASISTENCIAS": {
+      "get": {
+        "tags": [
+          "Tbl_Asistencias"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Estudiante_Grupo",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Id_Grupo_Asignatura",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Fecha",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Asistio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASISTENCIAS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASISTENCIAS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ASISTENCIAS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Asistencias/INSERTAR_ASISTENCIA": {
+      "post": {
+        "tags": [
+          "Tbl_Asistencias"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASISTENCIAS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASISTENCIAS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASISTENCIAS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Asistencias/ACTUALIZAR_ASISTENCIA": {
+      "put": {
+        "tags": [
+          "Tbl_Asistencias"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASISTENCIAS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASISTENCIAS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ASISTENCIAS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Contactos/OBTENER_CONTACTOS": {
+      "get": {
+        "tags": [
+          "Tbl_Contactos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CONTACTOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CONTACTOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CONTACTOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Contactos/BUSCAR_CONTACTOS_POR_ID": {
+      "get": {
+        "tags": [
+          "Tbl_Contactos"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Contacto",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CONTACTOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CONTACTOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CONTACTOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Contactos/BUSCAR_CONTACTOS": {
+      "get": {
+        "tags": [
+          "Tbl_Contactos"
+        ],
+        "parameters": [
+          {
+            "name": "Contacto",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CONTACTOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CONTACTOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CONTACTOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Contactos/INSERTAR_CONTACTOS": {
+      "post": {
+        "tags": [
+          "Tbl_Contactos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CONTACTOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CONTACTOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CONTACTOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Contactos/ACTUALIZAR_CONTACTOS": {
+      "put": {
+        "tags": [
+          "Tbl_Contactos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CONTACTOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CONTACTOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_CONTACTOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Datos_Personales/OBTENER_DATOS_PERSONALES": {
+      "get": {
+        "tags": [
+          "Tbl_Datos_Personales"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_CATALOGOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Datos_Personales/BUSCAR_DATOS_PERSONALES_POR_ID": {
+      "get": {
+        "tags": [
+          "Tbl_Datos_Personales"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Persona",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DATOS_PERSONALES"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DATOS_PERSONALES"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DATOS_PERSONALES"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Datos_Personales/BUSCAR_DATOS_PERSONALES": {
+      "get": {
+        "tags": [
+          "Tbl_Datos_Personales"
+        ],
+        "parameters": [
+          {
+            "name": "DNI",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Apellido1",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DATOS_PERSONALES"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DATOS_PERSONALES"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DATOS_PERSONALES"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Datos_Personales/INSERTAR_DATOS_PERSONALES": {
+      "post": {
+        "tags": [
+          "Tbl_Datos_Personales"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DATOS_PERSONALES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DATOS_PERSONALES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DATOS_PERSONALES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Datos_Personales/ACTUALIZAR_DATOS_PERSONALES": {
+      "put": {
+        "tags": [
+          "Tbl_Datos_Personales"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DATOS_PERSONALES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DATOS_PERSONALES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DATOS_PERSONALES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Docentes/OBTENER_DOCENTES": {
+      "get": {
+        "tags": [
+          "Tbl_Docentes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTES"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTES"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTES"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Docentes/BUSCAR_DOCENTES_POR_ID": {
+      "get": {
+        "tags": [
+          "Tbl_Docentes"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Docente",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTES"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTES"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTES"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Docentes/BUSCAR_DOCENTES": {
+      "get": {
+        "tags": [
+          "Tbl_Docentes"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Docente",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTES"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTES"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_DOCENTES"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Docentes/INSERTAR_DOCENTES": {
+      "post": {
+        "tags": [
+          "Tbl_Docentes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Docentes/ACTUALIZAR_DOCENTES": {
+      "put": {
+        "tags": [
+          "Tbl_Docentes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_DOCENTES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Estudiantes/OBTENER_ESTUDIANTES": {
+      "get": {
+        "tags": [
+          "Tbl_Estudiantes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTES"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTES"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTES"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Estudiantes/BUSCAR_ESTUDIANTES_POR_ID": {
+      "get": {
+        "tags": [
+          "Tbl_Estudiantes"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Estudiante",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTES"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTES"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTES"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Estudiantes/BUSCAR_ESTUDIANTES": {
+      "get": {
+        "tags": [
+          "Tbl_Estudiantes"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Estudiante",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTES"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTES"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_ESTUDIANTES"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Estudiantes/INSERTAR_ESTUDIANTE": {
+      "post": {
+        "tags": [
+          "Tbl_Estudiantes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Estudiantes/ACTUALIZAR_ESTUDIANTE": {
+      "put": {
+        "tags": [
+          "Tbl_Estudiantes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_ESTUDIANTES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Usuarios/OBTENER_USUARIOS": {
+      "get": {
+        "tags": [
+          "Tbl_Usuarios"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_USUARIOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_USUARIOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_USUARIOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Usuarios/BUSCAR_USUARIOS_POR_ID": {
+      "get": {
+        "tags": [
+          "Tbl_Usuarios"
+        ],
+        "parameters": [
+          {
+            "name": "Id_Usuario",
+            "in": "header",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_USUARIOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_USUARIOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_USUARIOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Usuarios/BUSCAR_USUARIOS": {
+      "get": {
+        "tags": [
+          "Tbl_Usuarios"
+        ],
+        "parameters": [
+          {
+            "name": "Usuario",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_USUARIOS"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_USUARIOS"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CE_USUARIOS"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tbl_Usuarios/INSERTAR_USUARIO": {
+      "post": {
+        "tags": [
+          "Tbl_Usuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_USUARIOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_USUARIOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_USUARIOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tbl_Usuarios/ACTUALIZAR_USUARIO": {
+      "put": {
+        "tags": [
+          "Tbl_Usuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_USUARIOS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_USUARIOS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AM_USUARIOS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AM_ASIGNATURAS": {
+        "type": "object",
+        "properties": {
+          "id_Asignatura": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "nombre_Asignatura": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_ASISTENCIAS": {
+        "type": "object",
+        "properties": {
+          "id_Asistencia": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estudiante_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Grupo_Asignatura": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Docente_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha": {
+            "type": "string",
+            "nullable": true
+          },
+          "asistio": {
+            "type": "string",
+            "nullable": true
+          },
+          "observacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_CATALOGOS": {
+        "type": "object",
+        "properties": {
+          "id_Catalogo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Tipo_Catalogo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "catalogo": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "activo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_CONTACTOS": {
+        "type": "object",
+        "properties": {
+          "id_Contacto": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Persona": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tipo_Contacto": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "contacto": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigo_Postal": {
+            "type": "string",
+            "nullable": true
+          },
+          "pais": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_DATOS_PERSONALES": {
+        "type": "object",
+        "properties": {
+          "id_Persona": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "primer_Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "segundo_Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "primer_Apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "segundo_Apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "edad": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo_Cargo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tipo_DNI": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dni": {
+            "type": "string",
+            "nullable": true
+          },
+          "genero": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "nacionalidad": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "departamento": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "estado_Civil": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_DOCENTES": {
+        "type": "object",
+        "properties": {
+          "id_Docente": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Persona": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_DOCENTE_GRUPO": {
+        "type": "object",
+        "properties": {
+          "id_Docente_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Docente": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_ESTADOS": {
+        "type": "object",
+        "properties": {
+          "id_Estados": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "activo": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_ESTUDIANTES": {
+        "type": "object",
+        "properties": {
+          "id_Estudiante": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Persona": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_ESTUDIANTE_GRUPO": {
+        "type": "object",
+        "properties": {
+          "id_Estudiante_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estudiante": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_GRUPOS": {
+        "type": "object",
+        "properties": {
+          "id_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "codigo_Grupo": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_GRUPO_ASIGNATURA": {
+        "type": "object",
+        "properties": {
+          "id_Grupo_Asignatura": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Asignatura": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_GRUPO_TURNO": {
+        "type": "object",
+        "properties": {
+          "id_Grupo_Turno": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Horario": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_HORARIOS": {
+        "type": "object",
+        "properties": {
+          "id_Horario": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "id_Turno": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "horario": {
+            "type": "string",
+            "nullable": true
+          },
+          "hora_Inicio": {
+            "type": "string",
+            "nullable": true
+          },
+          "hora_Fin": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_TIPO_CATALOGOS": {
+        "type": "object",
+        "properties": {
+          "id_Tipo_Catalogo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tipo_Catalogo": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "activo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AM_USUARIOS": {
+        "type": "object",
+        "properties": {
+          "id_Usuario": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Persona": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "contrasena": {
+            "type": "string",
+            "nullable": true
+          },
+          "ultima_Sesion": {
+            "type": "string",
+            "nullable": true
+          },
+          "ultima_Cambio_Credenciales": {
+            "type": "string",
+            "nullable": true
+          },
+          "intentos_Sesion": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_ASIGNATURAS": {
+        "type": "object",
+        "properties": {
+          "id_Asignatura": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "nombre_Asignatura": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_ASISTENCIAS": {
+        "type": "object",
+        "properties": {
+          "id_Asistencia": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estudiante_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Grupo_Asignatura": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Docente_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha": {
+            "type": "string",
+            "nullable": true
+          },
+          "asistio": {
+            "type": "string",
+            "nullable": true
+          },
+          "observacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_CATALOGOS": {
+        "type": "object",
+        "properties": {
+          "id_Catalogo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Tipo_Catalogo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "catalogo": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "activo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_CONTACTOS": {
+        "type": "object",
+        "properties": {
+          "id_Contacto": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Persona": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tipo_Contacto": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "contacto": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigo_Postal": {
+            "type": "string",
+            "nullable": true
+          },
+          "pais": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_DATOS_PERSONALES": {
+        "type": "object",
+        "properties": {
+          "id_Persona": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "primer_Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "segundo_Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "primer_Apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "segundo_Apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "edad": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo_Cargo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tipo_DNI": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dni": {
+            "type": "string",
+            "nullable": true
+          },
+          "genero": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "nacionalidad": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "departamento": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "estado_Civil": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_DOCENTES": {
+        "type": "object",
+        "properties": {
+          "id_Docente": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Persona": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_DOCENTE_GRUPO": {
+        "type": "object",
+        "properties": {
+          "id_Docente_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Docente": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_ESTADOS": {
+        "type": "object",
+        "properties": {
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "activo": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_ESTUDIANTES": {
+        "type": "object",
+        "properties": {
+          "id_Estudiante": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Persona": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_ESTUDIANTE_GRUPO": {
+        "type": "object",
+        "properties": {
+          "id_Estudiante_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estudiante": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_GRUPOS": {
+        "type": "object",
+        "properties": {
+          "id_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "codigo_Grupo": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_GRUPO_ASIGNATURA": {
+        "type": "object",
+        "properties": {
+          "id_Grupo_Asignatura": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Asignatura": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_GRUPO_TURNO": {
+        "type": "object",
+        "properties": {
+          "id_Grupo_Turno": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Grupo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Horario": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_HORARIOS": {
+        "type": "object",
+        "properties": {
+          "id_Horario": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Turno": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "horario": {
+            "type": "string",
+            "nullable": true
+          },
+          "hora_Inicio": {
+            "type": "string",
+            "nullable": true
+          },
+          "hora_Fin": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_TIPO_CATALOGOS": {
+        "type": "object",
+        "properties": {
+          "id_Tipo_Catalogo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tipo_Catalogo": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "activo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CE_USUARIOS": {
+        "type": "object",
+        "properties": {
+          "id_Usuario": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Persona": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "contrasena": {
+            "type": "string",
+            "nullable": true
+          },
+          "ultima_Sesion": {
+            "type": "string",
+            "nullable": true
+          },
+          "ultima_Cambio_Credenciales": {
+            "type": "string",
+            "nullable": true
+          },
+          "intentos_Sesion": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fecha_Creacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Modificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_Creador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Modificador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id_Estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

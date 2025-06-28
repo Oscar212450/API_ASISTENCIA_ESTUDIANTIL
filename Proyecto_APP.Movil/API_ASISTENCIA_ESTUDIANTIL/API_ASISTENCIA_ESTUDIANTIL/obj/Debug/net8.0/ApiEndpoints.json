@@ -1,0 +1,1716 @@
+[
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_AsignaturasController",
+    "Method": "Actualizar_Asignaturas",
+    "RelativePath": "api/Cls_Asignaturas/ACTUALIZAR_ASIGNATURAS",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_Asignaturas",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_ASIGNATURAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ASIGNATURAS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_AsignaturasController",
+    "Method": "BuscarAsignaturas",
+    "RelativePath": "api/Cls_Asignaturas/BUSCAR_ASIGNATURAS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NombreAsignatura",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CAPA_ENTIDADES.CE_ASIGNATURAS",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_AsignaturasController",
+    "Method": "BuscarAsignaturasid",
+    "RelativePath": "api/Cls_Asignaturas/BUSCAR_ASIGNATURAS_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Asignatura",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CAPA_ENTIDADES.CE_ASIGNATURAS",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_AsignaturasController",
+    "Method": "Insertar_Asignaturas",
+    "RelativePath": "api/Cls_Asignaturas/INSERTAR_ASIGNATURAS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_Asignaturas",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_ASIGNATURAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ASIGNATURAS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_AsignaturasController",
+    "Method": "ListarAsignaturas",
+    "RelativePath": "api/Cls_Asignaturas/OBTENER_ASIGNATURAS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CAPA_ENTIDADES.CE_ASIGNATURAS",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_CatalogosController",
+    "Method": "ActualizarCatalogo",
+    "RelativePath": "api/Cls_Catalogos/ACTUALIZAR_CATALOGO",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Catalogos",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_CATALOGOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_CatalogosController",
+    "Method": "FiltrarCatalogos",
+    "RelativePath": "api/Cls_Catalogos/BUSCAR_CATALOGOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Catalogo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_CATALOGOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_CatalogosController",
+    "Method": "FiltrarCatalogos_id",
+    "RelativePath": "api/Cls_Catalogos/BUSCAR_CATALOGOS_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID_Catalogo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_CATALOGOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_CatalogosController",
+    "Method": "InsertarCatalogo",
+    "RelativePath": "api/Cls_Catalogos/INSERTAR_CATALOGO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Catalogos",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_CATALOGOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_CatalogosController",
+    "Method": "ListarCatalogos",
+    "RelativePath": "api/Cls_Catalogos/OBTENER_CATALOGOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_CATALOGOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Docente_GrupoController",
+    "Method": "ActualizarDocenteGrupo",
+    "RelativePath": "api/Cls_Docente_Grupo/ACTUALIZAR_DOCENTE_GRUPO",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_DG",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_DOCENTE_GRUPO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Docente_GrupoController",
+    "Method": "FiltrarDocenteGrupo",
+    "RelativePath": "api/Cls_Docente_Grupo/BUSCAR_DOCENTE_GRUPO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Docente",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_DOCENTE_GRUPO, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Docente_GrupoController",
+    "Method": "FiltrarDocenteGrupoID",
+    "RelativePath": "api/Cls_Docente_Grupo/BUSCAR_DOCENTE_GRUPO_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Docente_Grupo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_DOCENTE_GRUPO, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Docente_GrupoController",
+    "Method": "InsertarDocenteGrupo",
+    "RelativePath": "api/Cls_Docente_Grupo/INSERTAR_DOCENTE_GRUPO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_DG",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_DOCENTE_GRUPO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Docente_GrupoController",
+    "Method": "Listar_Docente_Grupo",
+    "RelativePath": "api/Cls_Docente_Grupo/OBTENER_DOCENTE_GRUPO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_DOCENTE_GRUPO, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_EstadosController",
+    "Method": "Actualizar_Estados",
+    "RelativePath": "api/Cls_Estados/ACTUALIZAR_ESTADOS",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Estados",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_ESTADOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_EstadosController",
+    "Method": "Buscar_Estados",
+    "RelativePath": "api/Cls_Estados/BUSCAR_ESTADOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Estados",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ESTADOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_EstadosController",
+    "Method": "Buscar_EstadosID",
+    "RelativePath": "api/Cls_Estados/BUSCAR_ESTADOS_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Estados",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ESTADOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_EstadosController",
+    "Method": "Insertar_Estados",
+    "RelativePath": "api/Cls_Estados/INSERTAR_Estados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aM_ESTADOS",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_ESTADOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ESTADOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_EstadosController",
+    "Method": "LISTAR_ESTADOS",
+    "RelativePath": "api/Cls_Estados/OBTENER_ESTADOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ESTADOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Estudiante_GrupoController",
+    "Method": "ActualizarEstudianteGrupo",
+    "RelativePath": "api/Cls_Estudiante_Grupo/ACTUALIZAR_ESTUDIANTE_GRUPO",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_EG",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_ESTUDIANTE_GRUPO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Estudiante_GrupoController",
+    "Method": "FiltrarEstudianteGrupoID",
+    "RelativePath": "api/Cls_Estudiante_Grupo/BUSCAR_ESTUDIANTE_GRUPO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Estudiante",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ESTUDIANTE_GRUPO, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Estudiante_GrupoController",
+    "Method": "InsertarEstudianteGrupo",
+    "RelativePath": "api/Cls_Estudiante_Grupo/INSERTAR_ESTUDIANTE_GRUPO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_EG",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_ESTUDIANTE_GRUPO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Estudiante_GrupoController",
+    "Method": "Listar_Estudiante_Grupo",
+    "RelativePath": "api/Cls_Estudiante_Grupo/OBTENER_ESTUDIANTE_GRUPO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ESTUDIANTE_GRUPO, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Estudiante_GrupoController",
+    "Method": "FiltrarEstudianteGrupo",
+    "RelativePath": "api/Cls_Estudiante_Grupo/OBTENER_ESTUDIANTE_GRUPO_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Estudiante_Grupo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ESTUDIANTE_GRUPO, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Grupo_AsignaturasController",
+    "Method": "ActualizarGrupoAsignatura",
+    "RelativePath": "api/Cls_Grupo_Asignaturas/ACTUALIZAR_GRUPO_ASIGNATURA",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_GA",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_GRUPO_ASIGNATURA",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Grupo_AsignaturasController",
+    "Method": "FiltrarGrupoAsignatura",
+    "RelativePath": "api/Cls_Grupo_Asignaturas/BUSCAR_GRUPO_ASIGNATURA",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Grupo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_GRUPO_ASIGNATURA, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Grupo_AsignaturasController",
+    "Method": "FiltrarGrupoAsignaturaID",
+    "RelativePath": "api/Cls_Grupo_Asignaturas/BUSCAR_GRUPO_ASIGNATURA_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Grupo_Asignatura",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_GRUPO_ASIGNATURA, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Grupo_AsignaturasController",
+    "Method": "InsertarGrupoAsignatura",
+    "RelativePath": "api/Cls_Grupo_Asignaturas/INSERTAR_GRUPO_ASIGNATURA",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_GA",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_GRUPO_ASIGNATURA",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Grupo_AsignaturasController",
+    "Method": "Listar_Grupo_Asignatura",
+    "RelativePath": "api/Cls_Grupo_Asignaturas/OBTENER_GRUPO_ASIGNATURA",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_GRUPO_ASIGNATURA, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Grupo_TurnoController",
+    "Method": "ActualizarGrupoTurno",
+    "RelativePath": "api/Cls_Grupo_Turno/ACTUALIZAR_GRUPO_TURNO",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_GT",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_GRUPO_TURNO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Grupo_TurnoController",
+    "Method": "FiltrarGrupoTurno",
+    "RelativePath": "api/Cls_Grupo_Turno/BUSCAR_GRUPO_TURNO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Grupo_Turno",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_GRUPO_TURNO, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Grupo_TurnoController",
+    "Method": "FiltrarGrupoTurnoID",
+    "RelativePath": "api/Cls_Grupo_Turno/BUSCAR_GRUPO_TURNO_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Horario",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_GRUPO_TURNO, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Grupo_TurnoController",
+    "Method": "InsertarGrupoTurno",
+    "RelativePath": "api/Cls_Grupo_Turno/INSERTAR_GRUPO_TURNO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_GT",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_GRUPO_TURNO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Grupo_TurnoController",
+    "Method": "Listar_Grupo_Turno",
+    "RelativePath": "api/Cls_Grupo_Turno/OBTENER_GRUPO_TURNO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_GRUPO_TURNO, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_GruposController",
+    "Method": "Actualizar_Grupo",
+    "RelativePath": "api/Cls_Grupos/ACTUALIZAR_GRUPOS",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Grupos",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_GRUPOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_GruposController",
+    "Method": "Buscar_Grupos",
+    "RelativePath": "api/Cls_Grupos/BUSCAR_GRUPOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CodigoGrupo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_GRUPOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_GruposController",
+    "Method": "Buscar_GruposID",
+    "RelativePath": "api/Cls_Grupos/BUSCAR_GRUPOS_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Grupo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_GRUPOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_GruposController",
+    "Method": "Insertar_Grupo",
+    "RelativePath": "api/Cls_Grupos/INSERTAR_GRUPOS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Grupos",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_GRUPOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_GruposController",
+    "Method": "Listar_Grupos",
+    "RelativePath": "api/Cls_Grupos/OBTENER_GRUPOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_GRUPOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_HorariosController",
+    "Method": "ActualizarHorario",
+    "RelativePath": "api/Cls_Horarios/ACTUALIZAR_HORARIO",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Horarios",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_HORARIOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_HorariosController",
+    "Method": "FiltrarHorarios",
+    "RelativePath": "api/Cls_Horarios/BUSCAR_HORARIOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Horario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_HORARIOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_HorariosController",
+    "Method": "FiltrarHorariosID",
+    "RelativePath": "api/Cls_Horarios/BUSCAR_HORARIOS_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Horario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_HORARIOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_HorariosController",
+    "Method": "InsertarHorario",
+    "RelativePath": "api/Cls_Horarios/INSERTAR_HORARIO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Horarios",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_HORARIOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_HorariosController",
+    "Method": "ListarHorarios",
+    "RelativePath": "api/Cls_Horarios/OBTENER_HORARIOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_HORARIOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Tipo_CatalogosController",
+    "Method": "ActualizarTipoCatalogo",
+    "RelativePath": "api/Cls_Tipo_Catalogos/ACTUALIZAR_TIPO_CATALOGO",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Tipo_Catalogos",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_TIPO_CATALOGOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Tipo_CatalogosController",
+    "Method": "FiltrarTIpoCatalogo",
+    "RelativePath": "api/Cls_Tipo_Catalogos/BUSCAR_TIPO_CATALOGO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Tipos",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_TIPO_CATALOGOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Tipo_CatalogosController",
+    "Method": "FiltrarTIpoCatalogoID",
+    "RelativePath": "api/Cls_Tipo_Catalogos/BUSCAR_TIPO_CATALOGO_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Tipo_Catalogo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_TIPO_CATALOGOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Tipo_CatalogosController",
+    "Method": "InsertarTipoCatalogo",
+    "RelativePath": "api/Cls_Tipo_Catalogos/INSERTAR_TIPO_CATALOGO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Tipo_Catalogos",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_TIPO_CATALOGOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Cls_Tipo_CatalogosController",
+    "Method": "ListarTipoCatalogos",
+    "RelativePath": "api/Cls_Tipo_Catalogos/OBTENER_TIPO_CATALOGOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_TIPO_CATALOGOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_AsistenciasController",
+    "Method": "ActualizarAsistencia",
+    "RelativePath": "api/Tbl_Asistencias/ACTUALIZAR_ASISTENCIA",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_Asistencias",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_ASISTENCIAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_AsistenciasController",
+    "Method": "FiltrarAsistencias",
+    "RelativePath": "api/Tbl_Asistencias/BUSCAR_ASISTENCIAS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Estudiante_Grupo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id_Grupo_Asignatura",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fecha",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Asistio",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ASISTENCIAS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_AsistenciasController",
+    "Method": "FiltrarAsistencias",
+    "RelativePath": "api/Tbl_Asistencias/BUSCAR_ASISTENCIAS_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Asistencia",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ASISTENCIAS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_AsistenciasController",
+    "Method": "InsertarDocenteGrupo",
+    "RelativePath": "api/Tbl_Asistencias/INSERTAR_ASISTENCIA",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_Asistencias",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_ASISTENCIAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_AsistenciasController",
+    "Method": "Listar_Asistencias",
+    "RelativePath": "api/Tbl_Asistencias/OBTENER_ASISTENCIAS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ASISTENCIAS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_ContactosController",
+    "Method": "ActualizarContactos",
+    "RelativePath": "api/Tbl_Contactos/ACTUALIZAR_CONTACTOS",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Contactos",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_CONTACTOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_ContactosController",
+    "Method": "FiltrarContactos",
+    "RelativePath": "api/Tbl_Contactos/BUSCAR_CONTACTOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Contacto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_CONTACTOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_ContactosController",
+    "Method": "FiltrarContactosId",
+    "RelativePath": "api/Tbl_Contactos/BUSCAR_CONTACTOS_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Contacto",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_CONTACTOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_ContactosController",
+    "Method": "InsertarContactos",
+    "RelativePath": "api/Tbl_Contactos/INSERTAR_CONTACTOS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Contactos",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_CONTACTOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_ContactosController",
+    "Method": "ListarContactos",
+    "RelativePath": "api/Tbl_Contactos/OBTENER_CONTACTOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_CONTACTOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_Datos_PersonalesController",
+    "Method": "ActualizarDatosPersonales",
+    "RelativePath": "api/Tbl_Datos_Personales/ACTUALIZAR_DATOS_PERSONALES",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Datos_Personales",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_DATOS_PERSONALES",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_Datos_PersonalesController",
+    "Method": "FiltrarDatosPersonales",
+    "RelativePath": "api/Tbl_Datos_Personales/BUSCAR_DATOS_PERSONALES",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DNI",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Apellido1",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_DATOS_PERSONALES, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_Datos_PersonalesController",
+    "Method": "FiltrarDatosPersonalesID",
+    "RelativePath": "api/Tbl_Datos_Personales/BUSCAR_DATOS_PERSONALES_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Persona",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_DATOS_PERSONALES, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_Datos_PersonalesController",
+    "Method": "InsertarDatosPersonales",
+    "RelativePath": "api/Tbl_Datos_Personales/INSERTAR_DATOS_PERSONALES",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Am_Datos_Personales",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_DATOS_PERSONALES",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_Datos_PersonalesController",
+    "Method": "ListarCatalogos",
+    "RelativePath": "api/Tbl_Datos_Personales/OBTENER_DATOS_PERSONALES",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_CATALOGOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_DocentesController",
+    "Method": "Actualizar_Docentes",
+    "RelativePath": "api/Tbl_Docentes/ACTUALIZAR_DOCENTES",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_AM_Docentes",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_DOCENTES",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_DocentesController",
+    "Method": "Buscar_Docentes",
+    "RelativePath": "api/Tbl_Docentes/BUSCAR_DOCENTES",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Docente",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_DOCENTES, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_DocentesController",
+    "Method": "Buscar_DocentesID",
+    "RelativePath": "api/Tbl_Docentes/BUSCAR_DOCENTES_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Docente",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_DOCENTES, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_DocentesController",
+    "Method": "Insertar_Docentes",
+    "RelativePath": "api/Tbl_Docentes/INSERTAR_DOCENTES",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_AM_Docentes",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_DOCENTES",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_DocentesController",
+    "Method": "Listar_Docentes",
+    "RelativePath": "api/Tbl_Docentes/OBTENER_DOCENTES",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_DOCENTES, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_EstudiantesController",
+    "Method": "Actualizar_Estudiantes",
+    "RelativePath": "api/Tbl_Estudiantes/ACTUALIZAR_ESTUDIANTE",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_AM_Estudiantes",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_ESTUDIANTES",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_EstudiantesController",
+    "Method": "Buscar_Estudiantes",
+    "RelativePath": "api/Tbl_Estudiantes/BUSCAR_ESTUDIANTES",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Estudiante",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ESTUDIANTES, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_EstudiantesController",
+    "Method": "Buscar_EstudiantesID",
+    "RelativePath": "api/Tbl_Estudiantes/BUSCAR_ESTUDIANTES_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Estudiante",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ESTUDIANTES, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_EstudiantesController",
+    "Method": "Insertar_Estudiantes",
+    "RelativePath": "api/Tbl_Estudiantes/INSERTAR_ESTUDIANTE",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_AM_Estudiantes",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_ESTUDIANTES",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_EstudiantesController",
+    "Method": "Listar_Estudiantes",
+    "RelativePath": "api/Tbl_Estudiantes/OBTENER_ESTUDIANTES",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_ESTUDIANTES, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_UsuariosController",
+    "Method": "ActualizarUsuario",
+    "RelativePath": "api/Tbl_Usuarios/ACTUALIZAR_USUARIO",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_Usuarios",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_USUARIOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_UsuariosController",
+    "Method": "FiltrarUsuarios",
+    "RelativePath": "api/Tbl_Usuarios/BUSCAR_USUARIOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_USUARIOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_UsuariosController",
+    "Method": "FiltrarUsuarios",
+    "RelativePath": "api/Tbl_Usuarios/BUSCAR_USUARIOS_POR_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_Usuario",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_USUARIOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_UsuariosController",
+    "Method": "InsertarUsuarios",
+    "RelativePath": "api/Tbl_Usuarios/INSERTAR_USUARIO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_am_Usuarios",
+        "Type": "API_ASISTENCIA_ESTUDIANTIL.ApiModels.AM_USUARIOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ASISTENCIA_ESTUDIANTIL.Controllers.Tbl_UsuariosController",
+    "Method": "ListarUsuarios",
+    "RelativePath": "api/Tbl_Usuarios/OBTENER_USUARIOS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CAPA_ENTIDADES.CE_USUARIOS, CAPA_ENTIDADES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

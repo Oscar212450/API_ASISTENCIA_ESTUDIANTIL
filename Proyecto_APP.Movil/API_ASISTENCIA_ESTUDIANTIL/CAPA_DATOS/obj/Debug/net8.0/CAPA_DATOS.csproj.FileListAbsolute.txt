@@ -1,0 +1,90 @@
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.deps.json
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.dll
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.pdb
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.AssemblyReference.cache
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfoInputs.cache
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfo.cs
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.CoreCompileInputs.cache
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.Up2Date
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\refint\CAPA_DATOS.dll
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Abraham Telleria\source\repos\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\ref\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.deps.json
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.dll
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.pdb
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.AssemblyReference.cache
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfoInputs.cache
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfo.cs
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.CoreCompileInputs.cache
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.Up2Date
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\refint\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Holmer Martinez\Desktop\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\ref\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.deps.json
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.dll
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.pdb
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.AssemblyReference.cache
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfoInputs.cache
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfo.cs
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.CoreCompileInputs.cache
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.Up2Date
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\refint\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Holmer Martinez\Desktop\DESARROLLO WEB ENTORNO SERVIDOR\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\ref\CAPA_DATOS.dll
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.deps.json
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.dll
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.pdb
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.AssemblyReference.cache
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfoInputs.cache
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfo.cs
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.CoreCompileInputs.cache
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.Up2Date
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\refint\CAPA_DATOS.dll
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Abraham Telleria\Documents\API_ASISTENCIA_ESTUDIANTIL\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\ref\CAPA_DATOS.dll
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.deps.json
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.dll
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.pdb
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.AssemblyReference.cache
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfoInputs.cache
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfo.cs
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.CoreCompileInputs.cache
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.Up2Date
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\refint\CAPA_DATOS.dll
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Abraham Telleria\Downloads\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\ref\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.deps.json
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\bin\Debug\net8.0\CAPA_ENTIDADES.pdb
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.AssemblyReference.cache
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfoInputs.cache
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.AssemblyInfo.cs
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.CoreCompileInputs.cache
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.csproj.Up2Date
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\refint\CAPA_DATOS.dll
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\CAPA_DATOS.pdb
+C:\Users\Holmer Martinez\Desktop\Programacion De Aplicacion Movil\API_ASISTENCIA_ESTUDIANTIL\CAPA_DATOS\obj\Debug\net8.0\ref\CAPA_DATOS.dll
